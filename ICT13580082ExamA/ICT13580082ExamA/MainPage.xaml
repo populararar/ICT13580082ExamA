@@ -2,12 +2,190 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ICT13580082ExamA"
-             x:Class="ICT13580082ExamA.MainPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="ICT13580082ExamA.MainPage"
+             BackgroundColor="#FCE386"
+             Padding="10,10,10,10"
+             Icon="cream.png"
+             Title="HOME">
+    <ScrollView
+        Orientation="Vertical">
+    <StackLayout
+        BackgroundColor="#CAF591"
+            Orientation="Vertical"
+            Padding="5">
+
+
+            <ScrollView
+            Orientation="Horizontal">
+            <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="White">
+                <Button
+                    Text="TOP CHART"
+                    BackgroundColor="#F5EF91"
+                    HorizontalOptions="Center"/>
+                <Button
+                    Text="CATEGORY"
+                    BackgroundColor="#F8B945"
+                    HorizontalOptions="Center"/>
+                <Button
+                    Text="EDITER CHOICE"
+                    BackgroundColor="#FF5733"
+                    HorizontalOptions="Center"/>
+                <Button
+                    Text="MUSIC"
+                    BackgroundColor="#C70039"
+                    HorizontalOptions="Center"/>
+                <Button
+                    Text="PHOTO"
+                    BackgroundColor="#900C3F"
+                    HorizontalOptions="Center"/>
+                <Button
+                    Text="CHART"
+                    BackgroundColor="#581845"
+                    HorizontalOptions="Center"/>
+            </StackLayout>
+        </ScrollView>
+
+ 
+            
+       
+        <Frame
+            BackgroundColor="White"
+            Padding="5"
+            HeightRequest="200">
+            
+        
+            <StackLayout
+                 Orientation="Vertical">
+                <Label
+                    Text="New + UpdatedGame"
+                    TextColor="Gray"/>
+                <Label
+                    Text="Fresh selection every week"
+                    TextColor="Gray"/>
+                <ScrollView
+                    Orientation="Horizontal">
+
+
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="https://graph.facebook.com/100001922779783/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100002607295680/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100000889072505/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/1254730066/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            
+            
+          
+        </Frame>
+        <Frame
+            BackgroundColor="White"
+            Padding="5"
+            HeightRequest="200">
+
+
+            <StackLayout
+                 Orientation="Vertical">
+                <Label
+                    Text="You Might like..."
+                    TextColor="Gray"/>
+                <Label
+                    Text="Base on your resent"
+                    TextColor="Gray"/>
+                <ScrollView
+                    Orientation="Horizontal">
+
+
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="https://graph.facebook.com/100007125186867/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100009089384286/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100002013180324/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100003592649140/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+
+
+        </Frame>
+        <Frame
+            BackgroundColor="White"
+            Padding="5"
+            HeightRequest="200">
+
+
+            <StackLayout
+                 Orientation="Vertical">
+                <Label
+                    Text="Resent Lunches"
+                    TextColor="Gray"/>
+                <Label
+                    Text="Recomment for you"
+                    TextColor="Gray"/>
+                <ScrollView
+                    Orientation="Horizontal">
+
+
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="https://graph.facebook.com/100003592649140/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100001922779783/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/1557487081/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                        <Image
+                            Source="https://graph.facebook.com/100009089384286/picture?type=normal"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+
+
+        </Frame>
+        
+
+    </StackLayout>
+
+    </ScrollView>
+
 </ContentPage>

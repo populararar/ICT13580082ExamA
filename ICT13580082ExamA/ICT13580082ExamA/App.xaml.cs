@@ -12,8 +12,25 @@ namespace ICT13580082ExamA
 		public App ()
 		{
 			InitializeComponent();
+           
+            
 
-			MainPage = new ICT13580082ExamA.MainPage();
+
+
+
+            var tp = new TabbedPage();
+            tp.Children.Add(new MainPage());
+            tp.Children.Add(new TabPage1());
+            tp.Children.Add(new TabPage2());
+            tp.Children.Add(new TabPage3());
+
+            
+            var mp = new MasterDetailPage();
+            mp.Master = new MenuPage();
+            mp.Detail = new NavigationPage(tp);
+
+            MainPage = mp;
+           
 		}
 
 		protected override void OnStart ()
